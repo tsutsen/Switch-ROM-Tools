@@ -1,0 +1,8 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+data/org.tsutsen.SwitchROMTools.desktop.in
+data/org.tsutsen.SwitchROMTools.metainfo.xml.in
+data/org.tsutsen.SwitchROMTools.gschema.xml
+src/main.py
+src/window.py
+src/window.ui

@@ -1,0 +1,44 @@
+{
+    "name": "python3-nsz",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"nsz\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/30/d9/11d745a88e9000729fc4d9e813789a95327beda325e04ec311e9ae23a30e/blessed-1.27.0-py3-none-any.whl",
+            "sha256": "1c599969acc993bb5842bf3f638b0691e335277a9d9058cd079463a346988714"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/73/1e/244bb2fc5713ad21ae9f9012067f6432c682593816c6a45372c24f5a7d61/enlighten-1.14.1-py2.py3-none-any.whl",
+            "sha256": "5fbd0c959ca1644034c41bb0ace5db19c9852cf9d721b6103f5f130663c57be8"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/ab/e7/d75bd01d5d402e03cda549cb3a441d3db96fae921a1d0a3b16462d4fa6f4/nsz-4.6.1-py3-none-any.whl",
+            "sha256": "3b65c3ccc5620d713b7d862191f2f657f1b019ec6173e95ddf274c4e196a714d"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/c3/61/d9957a0ed189ac8a89075c59c97588fb1c77e51d8d44a26f5cdf001d260c/prefixed-0.9.0-py2.py3-none-any.whl",
+            "sha256": "3cdb74bfc4cf0aba28f3574662b13afdcac27c463dcbef320fe5d03f4c5fbca8"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/8e/a6/8452177684d5e906854776276ddd34eca30d1b1e15aa1ee9cefc289a33f5/pycryptodome-3.23.0.tar.gz",
+            "sha256": "447700a657182d60338bab09fdb27518f8856aecd80ae4c6bdddb67ff5da44ef"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/7a/86/7f461495625145a99d60f14cdac142a11db5d501c86d48aad165575d1e06/wcwidth-0.3.5-py3-none-any.whl",
+            "sha256": "b0a0245130566939a24ab8432e625b38272fbc62ecbe5aecbdcb50b8f02ce993"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/fd/aa/3e0508d5a5dd96529cdc5a97011299056e14c6505b678fd58938792794b1/zstandard-0.25.0.tar.gz",
+            "sha256": "7713e1179d162cf5c7906da876ec2ccb9c3a9dcbdffef0cc7f70c3667a205f0b"
+        }
+    ]
+}

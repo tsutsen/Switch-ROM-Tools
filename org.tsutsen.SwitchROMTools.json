@@ -1,0 +1,20 @@
+{
+  "app-id": "org.tsutsen.SwitchROMTools",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "48",
+  "sdk": "org.gnome.Sdk",
+  "command": "SwitchROMTools",
+  "finish-args": [
+    "--share=ipc",
+    "--socket=wayland",
+    "--socket=fallback-x11",
+    "--device=dri",
+    "--filesystem=host"
+  ],
+  "modules": [
+    "pypi-dependencies.json",
+    {
+      "name": "SwitchROMTools",
+    }
+  ]
+}

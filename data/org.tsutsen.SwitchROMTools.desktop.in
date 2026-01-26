@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=switchromtools
+Exec=switchromtools
+Icon=org.tsutsen.SwitchROMTools
+Terminal=false
+Type=Application
+Categories=Utility;
+Keywords=GTK;
+StartupNotify=true
+DBusActivatable=true
