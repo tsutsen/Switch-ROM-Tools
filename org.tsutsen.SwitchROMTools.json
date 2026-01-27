@@ -1,9 +1,9 @@
 {
   "app-id": "org.tsutsen.SwitchROMTools",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "48",
+  "runtime-version": "49",
   "sdk": "org.gnome.Sdk",
-  "command": "SwitchROMTools",
+  "command": "switchromtools",
   "finish-args": [
     "--share=ipc",
     "--socket=wayland",
@@ -15,6 +15,13 @@
     "pypi-dependencies.json",
     {
       "name": "SwitchROMTools",
+      "buildsystem": "meson",
+      "sources": [
+        {
+          "type": "dir",
+          "path": "."
+        }
+      ]
     }
   ]
 }
