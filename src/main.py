@@ -934,14 +934,14 @@ class SwitchROMToolsWindow(Adw.ApplicationWindow):
             "decompress",
             "Decompress"
         )
-        decompress_page.set_icon_name("view-fullscreen-symbolic")
+        decompress_page.set_icon_name("decompress-icon-symbolic")
 
         compress_page = self.view_stack.add_titled(
             CompressPage(),
             "compress",
             "Compress"
         )
-        compress_page.set_icon_name("view-restore-symbolic")
+        compress_page.set_icon_name("compress-icon-symbolic")
 
         toolbar_view.set_content(self.view_stack)
         self.toast_overlay.set_child(toolbar_view)
