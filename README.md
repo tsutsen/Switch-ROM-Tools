@@ -8,8 +8,8 @@
 </p>
 
 <p align="center">
-  <img width="500" alt="Decompress Page" src="https://github.com/user-attachments/assets/0deef009-0261-4203-83f6-5dfe67501490" />
-  <img width="500" alt="Compress Page" src="https://github.com/user-attachments/assets/843dd93b-244f-42bf-8c81-90af058fdd93" />
+  <img width="400" alt="Decompress Page" src="https://github.com/user-attachments/assets/0deef009-0261-4203-83f6-5dfe67501490" />
+  <img width="400" alt="Compress Page" src="https://github.com/user-attachments/assets/843dd93b-244f-42bf-8c81-90af058fdd93" />
 </p>
 
 ## Features
