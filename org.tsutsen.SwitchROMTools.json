@@ -8,7 +8,7 @@
     "--share=ipc",
     "--socket=wayland",
     "--socket=fallback-x11",
-    "--device=dri",
+    "--device=dri"
   ],
   "modules": [
     "pypi-dependencies.json",
