@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=org.tsutsen.SwitchRomConverter
-Exec=@bindir@/switchromconverter --gapplication-service
