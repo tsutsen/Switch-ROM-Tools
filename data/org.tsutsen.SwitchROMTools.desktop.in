@@ -1,10 +1,10 @@
 [Desktop Entry]
-Name=switchromtools
+Name=Switch ROM Tools
 Exec=switchromtools
 Icon=org.tsutsen.SwitchROMTools
 Terminal=false
 Type=Application
 Categories=Utility;
-Keywords=GTK;
+Keywords=GTK;Games;ROM;NSP;NSZ;Compression;
 StartupNotify=true
-DBusActivatable=true
+DBusActivatable=false
