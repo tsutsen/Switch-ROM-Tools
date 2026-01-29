@@ -18,8 +18,9 @@
       "buildsystem": "meson",
       "sources": [
         {
-          "type": "dir",
-          "path": "."
+          "type": "https://github.com/tsutsen/Switch-ROM-Tools.git",
+          "tag": "v1.0.1",
+          "commit": "d5f023edcefc6d5b86e329b5d345e64ebd28623a"
         }
       ]
     }
